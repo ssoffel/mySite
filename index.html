@@ -17,7 +17,7 @@
   <body>
 
     <!--Navigation -->
-   <nav class="navbar navbar-expand-md stickey-top">
+   <nav class="navbar navbar-expand-md sticky-top">
      <div class="container-fluid">
        <a class="navbar-brand" href="#"><img id="selfie" src="img/me.jpeg" width="150" height="150"></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -32,16 +32,16 @@
                <a class="nav-link" href="#">About</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Projects</a>
+               <a class="nav-link" href="#projects">Projects</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Skills</a>
+               <a class="nav-link" href="#skills">Skills</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Education</a>
+               <a class="nav-link" href="#education">Education</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Experience</a>
+               <a class="nav-link" href="#experience">Experience</a>
              </li>
            </ul>
        </div>
@@ -67,6 +67,7 @@
      <hr class="light">
 
     <!-- Projects -->
+    <a name="projects"></a>
     <div class="container-fluid">
        <div class="row padding" id="package">
          <div class="col-sm-12 col-md-12 col-lg-12">
@@ -120,7 +121,7 @@
             <h5 class="card-header">ToDo App</h5>
             <div class="card-body">
                <h5 class="card-title">C++, QT 5.9, HTML</h5>
-               <p class="card-text">Your basic CRUD ToDo app using C++ and QT 5.9. App allows the user to create, update, delete, edit tasks.</p>
+               <p class="card-text">Your basic CRUD ToDo app using C++ and QT 5.9. Application allows the user to create, update, delete, edit tasks.</p>
                <a href="https://github.com/ssoffel/Qt-ToDo-App"><i class="fab fa-github"></i></a>
             </div>
           </div>
@@ -140,23 +141,26 @@
 
          </div>
        </div>
-      <hr>
-    <!-- Skills-->
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-          <div class="col-12">
-            <h1 class="display-4">Skills</h1>
 
+    <!-- Skills-->
+    <a name="skills"></a>
+    <div class="container-fluid padding skills">
+      <hr>
+        <div class="row welcome text-left">
+          <div class="col-12">
+            <h2>Skills</h2>
           </div>
-           <hr class="my-4">
-          <div class="col-1">
+
+          <div class="col-12 text-left">
             <p class="lead">Proficient</p>
+            <hr>
+
           </div>
         </div>
       </div>
 
       <!--Three Column Section -->
-      <div class="container-fluid padding">
+      <div class="container-fluid padding skills">
         <div class="row text-center padding">
 
           <div class="col-xs-4 col-sm-4 col-md-2">
@@ -175,12 +179,12 @@
 
           </div>
           <div class="col-xs-4 col-sm-4 col-md-2">
-            <i class="custon"><img src="img/images_aT4_icon.ico"></i>
+             <i><img src="img/redux.png" class="redux"></i>
             <h3>Redux</h3>
 
           </div>
           <div class="col-xs-4 col-sm-4 col-md-2">
-            <i>express.js</i>
+            <i><h2 class="top">express.js</h2></i>
             <h3>Express</h3>
 
           </div>
@@ -200,7 +204,7 @@
 
           </div>
           <div class="col-xs-4 col-sm-4 col-md-2">
-            <i class="PostgreSQL"><img src="img/postgres_icon.ico"></i>
+            <i class="PostgreSQL"><img class="PostgreSQL" src="img/postgresql.png"></i>
             <h3>PostgreSQL</h3>
 
           </div>
@@ -224,57 +228,146 @@
 
       </div>
 
-      <div class="container-fluid padding">
+      <div class="container-fluid padding skills">
           <div class="row welcome text-left">
-            <div class="col-1">
+            <div class="col-12">
               <p class="lead">Knowledgeable</p>
+              <hr>
+
             </div>
           </div>
         </div>
-        <div class="container-fluid padding">
+        <div class="container-fluid padding skills">
           <div class="row text-center padding">
 
             <div class="col-xs-4 col-sm-4 col-md-2">
-              <i class="c">C++</i>
+              <i><img class="c" src="img/CPP.png"></i>
               <h3>C plus plus</h3>
 
             </div>
             <div class="col-xs-4 col-sm-4 col-md-2">
               <i class="Rails"><img src="img/ruby_on_rails_icon.ico"></i>
               <h3>Ruby-on-Rails</h3>
-             
+
             </div>
             <div class="col-xs-4 col-sm-4 col-md-2">
-              <i class="fab fa-css3"></i>
-              <h3>CSS3</h3>
-              <p>Built with the latest version of CSS, CSS3.</p>
+              <i><img src="img/mongo.png" class="c"></i>
+              <h3>Mongodb</h3>
+
             </div>
             <div class="col-xs-4 col-sm-4 col-md-2">
-              <i class="fas fa-code"></i>
-              <h3>HTML5</h3>
-              <p>Built with the latest version of HTML, HTML5.</p>
+              <i><img src="img/jasmine.png" class="c"></i>
+              <h3>Jasmine</h3>
+
             </div>
             <div class="col-xs-4 col-sm-4 col-md-2">
-              <i class="fas fa-bold"></i>
-              <h3>BOOTSTRAP</h3>
-              <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+              <i><img src="img/mocha.png" class="c"></i>
+              <h3>Mocha</h3>
+
             </div>
             <div class="col-xs-4 col-sm-4 col-md-2">
-              <i class="fab fa-css3"></i>
-              <h3>CSS3</h3>
-              <p>Built with the latest version of CSS, CSS3.</p>
+              <i><img src="img/chia.png" class='c'></i>
+              <h3>Chia</h3>
+
             </div>
+
           </div>
           <hr class="my-4">
         </div>
 
+    <!--Experience -->
+    <a name="experience"></a>
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 col-xl-11">
+          <h2 class="experience">Experience</h2>
+          <h3>HymanBeck & Company
+          <h4>Head of Trading</h4>
+          <p class="lead">Manage all trading activity for 24hr desk in over 60 global markets for fund with over 800 million in assets. Reduced trading room costs by over 25% through streamling operations and eliminating redundant capabiltites.</p>
+          <h4>Forex Trader</h4>
+          <p class="lead">Extended a company line of credit and generated 10 - 50% returns for 10 straight years trading G10 and emerging market currencies. Highly skilled in developing short-term trading strategies that generate returns while minimizing risk.</p>
+        </div>
+
+
+     </div>
+    </div>
+    <hr>
 
     <!--Education -->
+    <a name="education"></a>
+    <div class="container-fluid">
+       <div class="row padding" id="package">
+         <div class="col-sm-12 col-md-12 col-lg-12">
+         <h2>Education</h2>
+        </div>
+
+         <div class="col-sm-12 col-md-6 col-lg-6">
+
+           <div class="card ed-card">
+
+            <div class="card-body">
+              <img class="bentley" src="img/bentley.jpeg">
+              <h5>BS Finance</h5>
+               <p class="card-text">Graduated with Finance degree with concentration on Capital Markets, minored in Computer Information Systems.</p>
+
+            </div>
+          </div>
+         </div>
+         <div class="col-sm-12 col-md-6 col-lg-6">
+
+           <div class="card">
+
+            <div class="card-body">
+              <img class="bentley" src="img/fullstack.png">
+              <h5> Software Engineering Immersive 2018</h5>
+               <p class="card-text">Over 1000 hour full-time program with emphasis on CS fundamentals, pair programming, agile workflow, and the latest technologies..</p>
+
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
 
 
-    <!--Experience -->
 
 
     <!-- footer -->
+
+
+
+  <!-- footer -->
+  <div class="container-fluid padding footer">
+    <div class="row text-center">
+      <div class="col-md-4">
+
+        <hr class="light">
+        <h4>Contact</h4>
+        <p>201-965-1912<br>
+        ScottrSoffel@gmail.com</p>
+
+     </div>
+     <div class="col-md-4">
+       <hr class="light">
+       <h4>Connect</h4>
+       <p><a class="footerLinks" href="https:www.linkedin.com/in/scott-soffel">LinkedIn<a/><br>
+          <a class="footerLinks" href="https://github/ssoffel">GitHub</a></p>
+
+     </div>
+     <div class="col-md-4">
+       <hr class="light">
+       <h4>Address</h4>
+       <p>809 22nd Street apt 1302<br>
+        Union City, NJ 07087</p>
+     </div>
+
+     <div class="col-md-12">
+       <hr class="light">
+       <h5>&copy ScottSoffel.com</h5>
+     </div>
+
+
+
+    </div>
+  </div>
   </body>
 </html>

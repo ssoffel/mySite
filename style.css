@@ -32,8 +32,16 @@ html, body {
 	padding: .8rem;
 }
 nav.navbar {
-  background-color: #e9ecef;
+	background-color: #3f3f3f;
+	color: #d5d5d5;
 }
+
+ .lead {
+	 color: #696969;
+ }
+ .footerLinks {
+	 color: #d5d5d5;
+ }
 
 
 button.navbar-toggler{
@@ -55,7 +63,73 @@ p.software {
   background-color: white;
 
 }
+.skills {
+	background-color: rgba(0,0,0,.03);
+}
 
+.card-header {
+	background-color: rgba(94, 87, 99, .62);
+}
+.ed-card {
+	margin-bottom: 5em;
+}
+.experience {
+	 margin-bottom: 1.5em;
+}
+
+.fab, .fas {
+	font-size: 4em;
+
+}
+.c {
+	height: 4em;
+}
+.redux, .PostgreSQL {
+	height: 4em;
+}
+.top {
+	margin-top: 20px;
+	color: #879B98;
+}
+
+.fa-node {
+	color: #273639;
+}
+
+.fa-github {
+	color: #11788C
+}
+
+.fa-react  {
+	color: #21D3F6;
+}
+
+ .fa-js-square {
+	color: #96F05A;
+}
+
+.fa-code {
+	color: #e54026;
+}
+.fa-bold {
+	color: #563d7c
+}
+.fa-css3 {
+color: #2163af;
+}
+.bentley {
+	height: 15em;
+}
+
+
+.express {
+	color: #879B98;
+}
+
+.footer {
+	 background-color: #3f3f3f;
+	 color: #d5d5d5;
+ }
 /* Fixed background Image*/
 figure {
   position: relative;
